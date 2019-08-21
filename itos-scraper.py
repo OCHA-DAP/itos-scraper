@@ -72,15 +72,3 @@ for service in get_itos_services():
             layer["extent"]["xmin"],
             layer["extent"]["xmax"],
         ])
-        continue
-    
-        if country_code not in country_info:
-            country_info[country_code] = {}
-        country_info[country_code][service_label] = {
-            "country_code": country_code,
-            "service_label": service_label,
-            "name": layer["name"],
-            "id": layer["id"],
-            "extent": layer["extent"],
-        }
-
