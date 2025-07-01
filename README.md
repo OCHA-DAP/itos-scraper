@@ -1,3 +1,4 @@
+# DEPRECATED - Script discontinued
 iTOS CODs scraper
 =================
 
